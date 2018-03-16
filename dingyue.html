@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,
+initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/dingyue.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>订阅</title>
+</head>
+<body>
+    <header>
+        <main>
+            <a href="index.html"><div class="hleft">关&nbsp;&nbsp;&nbsp;&nbsp;注</div></a>
+            <a href=""><div class="hright border">订&nbsp;&nbsp;&nbsp;&nbsp;阅</div></a>
+            <i class="iconfont hh">&#xe60f;</i>
+        </main>
+    </header>
+    <nav>
+        我的订阅
+    </nav>
+    <section>
+        <li class="dingyue">
+            <div class="picture"><img src="img/d3.jpg" alt=""></div>
+            <h1  class="dn">设计</h1>
+            <div class="jl">1</div>
+        </li>
+        <li class="dingyue">
+            <div class="picture"><img src="img/d2jpg.jpg" alt=""></div>
+            <h1  class="dn">音乐</h1>
+            <div class="jl">2</div>
+        </li>
+        <li class="dingyue">
+            <div class="picture"><img src="img/6.jpg" alt=""></div>
+            <h1  class="dn">旅行</h1>
+            <div class="jl">3</div>
+        </li>
+        <li class="dingyue">
+            <div class="picture"><img src="img/2.jpg" alt=""></div>
+            <h1  class="dn">七天穿搭打卡日记</h1>
+            <div class="jl">6</div>
+        </li>
+        <li class="dingyue">
+            <div class="picture"><img src="img/3.jpg" alt=""></div>
+            <h1  class="dn">健身</h1>
+            <div class="jl">4</div>
+        </li>
+        <div class="geduo">分类查看所有标签</div>
+    </section>
+    <footer>
+        <div>
+            <a class="dd">
+                <i class="iconfont ff">&#xe655;</i>
+                <p>首页</p>
+            </a>
+            <a>
+                <i class="iconfont ff">&#xe644;</i>
+                <p>发现</p>
+            </a>
+            <a>
+                <i class="iconfont ff">&#xe682;</i>
+                <p>消息</p>
+            </a>
+            <a>
+                <i class="iconfont ff">&#xe650;</i>
+                <p>我的</p>
+            </a>
+        </div>
+    </footer>
+</body>
+<script>
+    $("footer div a").click(function(){
+        $(this).addClass("dd").siblings().removeClass("dd")
+    })
+    $("main div").click(function () {
+        $(this).addClass("border").siblings().removeClass("border")
+    })
+</script>
+</html>

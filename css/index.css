@@ -1,0 +1,269 @@
+@import url("base.css");
+@font-face {
+    font-family: 'iconfont';  /* project id 532698 */
+    src: url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.eot');
+    src: url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style:normal;
+}
+/*头部*/
+header{
+    width:100%;
+    background:#fff;
+    position: fixed;
+    top:0;
+    height: 1.1rem;
+    margin-bottom:0.3rem;
+    background:#fff ;
+    border-bottom:0.01rem solid #b0b0b0;
+}
+main{
+    width:80%;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    position: relative;
+}
+main a{
+    width:45%;
+    height:100%;
+}
+main a div{
+    line-height: 1.12rem;
+    font-size:0.6rem;
+    text-align:center;
+    box-sizing: border-box;
+    color:black;
+}
+.border{
+    border-bottom:0.01rem solid #000000;
+}
+.hh{
+    position:absolute;
+    top:0.1rem;
+    right:-0.2rem;
+    font-size:0.8rem;
+    font-weight:bolder;
+}
+.nav_box{
+    margin-top:1.4rem;
+    width:100%;
+    height: 2rem;
+}
+.navt{
+    height: 2rem;
+    width:100%;
+}
+.swiper-slide{
+    width:3rem;
+    height:100%;
+    margin-right: 0.2rem;
+}
+.swiper-slide img{
+    width:100%;
+}
+section{
+    margin-bottom:2rem;
+}
+.follow{
+    background:#fff;
+    margin:0.4rem 0;
+}
+.follow_top{
+    padding:0.2rem;
+    display:flex;
+    justify-content: space-between;
+}
+.follow_top_left{
+    position: relative;
+}
+.follow_top_left li{
+  height:1.4rem;
+  width:1.4rem;
+    border-radius:50%;
+    overflow: hidden;
+}
+.follow_top_left img{
+    width:100%;
+
+}
+.aa{
+    background:black;
+    border-radius:50%;
+    position:absolute;
+    bottom:-0.1rem;
+    right:-0.1rem;
+    color:yellow;
+    font-size:0.5rem;
+}
+.follow_top p{
+    line-height:1.4rem;
+    font-size:0.6rem;
+    color:#888;
+}
+.follow_top_right{
+    line-height:1.4rem;
+    color:#e7e7e7;
+}
+/*下部*/
+.follow_bottom{
+    width:100%;
+    border-bottom:0.01rem solid #b0b0b0;
+}
+.follow_bottom img{
+    width:100%;
+}
+.talker{
+    padding:0.2rem;
+    font-size:0.65rem;
+    text-align:left;
+    color:black;
+    text-decoration:underline;
+    padding-bottom:0.4rem;
+}
+.neirong{
+    padding:0.2rem;
+}
+.neirong p{
+    padding:0 0.2rem;
+    font-size:0.6rem;
+    border-left:0.01rem solid #b0b0b0;
+}
+.neirong span{
+    display:block;
+    padding:0.2rem 0;
+    color: #b0b0b0;
+    font-size:0.52rem;
+    position: relative;
+}
+.bb{
+    font-size:0.52rem;
+}
+.shanshui{
+    font-size:0.6rem;
+    position: absolute;
+    color:black;
+    left:4rem;
+    top:0.1rem;
+}
+.xiangxi{
+    padding:0.4rem 0;
+    color: #b0b0b0;
+    font-size:0.45rem;
+}
+.xiangxi i{
+    font-style: normal;
+    font-size:0.8rem;
+    font-weight:bolder;
+}
+.zan{
+    display: flex;
+    justify-content:space-around;
+    font-size:0.65rem;
+    padding:0.2rem;
+}
+.zan i:first-child{
+
+    color:red;
+}
+.cc{
+    font-size:0.85rem;
+    color:black;
+}
+.redu li{
+    color:#888888;
+    padding:0.2rem;
+    font-size: 0.53rem;
+}
+.redu a{
+  color:deepskyblue;
+    font-size: 0.6rem;
+}
+/*xbtj*/
+.xbtj_t{
+    font-size:0.53rem;
+    color: #b0b0b0;
+    padding:0.3rem 0.2rem;
+    padding-top:0.1rem;
+}
+.xbtj_b{
+    border-radius:0.2rem;
+    margin:0 auto;
+    background:white;
+    /*display: flex;*/
+    overflow: hidden;
+}
+.xbtj_b li{
+    width:100%;
+}
+.xbtj_b_t{
+    padding:0.3rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.xbtj_b_t img.img{
+    width: 1.2rem;
+}
+.xbtj_b_t p{
+    width:50%;
+    font-size:0.6rem;
+}
+.xbtj_b_t .guanzhu{
+    padding:0.15rem 0.2rem;
+    /*border-radius:0.1rem;*/
+    border:0.01rem solid greenyellow;
+    color: greenyellow;
+    font-size:0.5rem;
+}
+.xbtj_b img{
+    width:100%;
+}
+.tishi{
+    padding:0.3rem;
+
+}
+.tishi span{
+    display:block;
+    font-size: 0.56rem;
+    padding-bottom:0.6rem;
+}
+.love{
+    border-top:0.01rem solid #b0b0b0;
+    padding: 0.3rem;
+    color: #b0b0b0;
+    font-size:0.6rem;
+}
+.love i{
+    font-size:0.8rem;
+}
+footer{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    background: #ffffff;
+}
+footer div{
+    padding:0.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color:#b0b0b0;
+}
+footer a p{
+    font-size: 0.56rem;
+}
+.ff{
+    color: black;
+    font-size:1rem;
+}
+.dd{
+    color:#000;
+}

@@ -1,0 +1,130 @@
+@import url("base.css");
+@font-face {
+    font-family: 'iconfont';  /* project id 532698 */
+    src: url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.eot');
+    src: url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style:normal;
+}
+/*头部*/
+header{
+    width:100%;
+    background:#fff;
+    position: fixed;
+    top:0;
+    height: 1.1rem;
+    margin-bottom:0.3rem;
+    background:#fff ;
+    border-bottom:0.01rem solid #b0b0b0;
+}
+main{
+    width:80%;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    position: relative;
+}
+main a{
+    width:45%;
+    height:100%;
+}
+main a div{
+    line-height: 1.12rem;
+    font-size:0.6rem;
+    text-align:center;
+    box-sizing: border-box;
+    color:black;
+}
+.border{
+    box-sizing: border-box;
+    border-bottom:0.01rem solid black;
+}
+.hh{
+    position:absolute;
+    top:0.1rem;
+    right:-0.2rem;
+    font-size:0.8rem;
+    font-weight:bolder;
+}
+/*nav*/
+nav{
+    margin-top:1.4rem;
+    height: 1.26rem;
+    padding:0 0.5rem;
+    font-size:0.42rem;
+    line-height:1.26rem;
+    color:#999999;
+    background:#ffffff;
+    border-bottom:0.01rem solid #dddddd;
+}
+.dingyue{
+    position: relative;
+    display:flex;
+    padding:0.32rem 0.5rem;
+    justify-content: space-between;
+}
+.picture{
+    width:15%;
+}
+.picture img{
+  width:100%;
+    height:1.8rem;
+}
+.dn{
+   width:80%;
+    line-height:1.8rem;
+    border-bottom:0.01rem solid #d7d7d7;
+    color:#333;
+    font-size: 0.42rem;
+    font-family: "Adobe 楷体 Std R";
+}
+.jl{
+    width:1rem;
+    height:1rem;
+    background:#e7e7e7;
+    position: absolute;
+    right: 0.9rem;
+    top:0.7rem;
+    border-radius:50%;
+    text-align: center;
+    line-height:1rem;
+}
+.geduo{
+    margin-top: 0.2rem;
+    width:100%;
+    padding:0.5rem 0;
+    font-size:0.56rem;
+    color: #b0b0b0;
+    background:#ffffff;
+    text-align: center;
+}
+footer{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    background: #ffffff;
+}
+footer div{
+    padding:0.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color:#b0b0b0;
+}
+footer a p{
+    font-size: 0.56rem;
+    font-weight:bolder;
+}
+.ff{
+    color: black;
+    font-size:1rem;
+}
+.dd{
+    color:#000;
+}

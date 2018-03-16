@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,
+initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <title>my</title>
+</head>
+<body>
+<header>
+        <div class="header-b-l">
+            <i class="iconfont aa">
+                &#xe64a;
+            </i>
+            <p>
+                <a href="">登 陆/ </a>
+                <a href="">注 册</a>
+            </p>
+        </div>
+        <i class="iconfont bb">&#xe635;</i>
+</header>
+<nav>
+    <div class="nav">
+       <li>
+          <p>14</p>
+           <span>关 注</span>
+       </li>
+        <li>
+            <p>0</p>
+            <span>粉 丝</span>
+        </li>
+        <li>
+            <p>0</p>
+            <span>文 章</span>
+        </li>
+    </div>
+</nav>
+<section>
+    <div class="like">
+            <i class="iconfont l1">&#xe612;</i>
+            <span>&nbsp;我的喜欢</span>
+            <i class="iconfont l2">&#xe605;</i>
+    </div>
+    <div class="neirong">
+        <li>
+            <i class="iconfont l1">&#xe60a;</i>
+            <div>
+            <span>&nbsp;福利市集</span>
+            <i class="iconfont l2">&#xe605;</i>
+            </div>
+        </li>
+
+        <li>
+            <i class="iconfont l1">&#xe622;</i>
+            <div>
+                <span>&nbsp;主要贡献</span>
+                <i class="iconfont l2">&#xe605;</i>
+            </div>
+        </li>
+        <li>
+            <i class="iconfont l1">&#xe703;</i>
+            <div>
+                <span>&nbsp;设置</span>
+                <i class="iconfont l2">&#xe605;</i>
+            </div>
+        </li>
+    </div>
+</section>
+<footer>
+    <div>
+        <a href="index.html">
+            <i class="iconfont ff">&#xe655;</i>
+            <p>首页</p>
+        </a>
+        <a href="find.html">
+            <i class="iconfont ff">&#xe644;</i>
+            <p>发现</p>
+        </a>
+        <a>
+            <i class="iconfont ff">&#xe682;</i>
+            <p>消息</p>
+        </a>
+        <a class="dd">
+            <i class="iconfont ff">&#xe650;</i>
+            <p>我的</p>
+        </a>
+    </div>
+</footer>
+</body>
+<script>
+    $("footer div a").click(function(){
+        $(this).addClass("dd").siblings().removeClass("dd")
+    })
+</script>
+</html>

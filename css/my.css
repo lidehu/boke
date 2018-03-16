@@ -1,0 +1,134 @@
+@import url("base.css");
+@font-face {
+    font-family: 'iconfont';  /* project id 532698 */
+    src: url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.eot');
+    src: url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_532698_4hiwfdn5z5g3c8fr.svg#iconfont') format('svg');
+}
+header{
+    height:2.57rem;
+    background:#043150;
+    padding:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-b-l{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+}
+.aa{
+    font-size:1.8rem;
+    color: #f3f3f3;
+    margin-top: 0.5rem;
+}
+.bb{
+    color: #ffffff;
+    font-size: 0.6rem;
+    transform:rotate(180deg);
+}
+.header-b-l p{
+    width: 60%;
+    height: 100%;
+
+    margin-top: 1.18rem;
+}
+.header-b-l p a{
+    font-size: 0.6rem;
+    color: #fff;
+}
+nav{
+    padding:0.3rem 1rem;
+    background:#ffffff;
+}
+.nav{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+}
+.nav li p{
+    font-size:0.5rem;
+    line-height:0.6rem;
+}
+.nav li span{
+ font-size:0.5rem;
+}
+.like{
+   margin:0.4rem 0;
+    padding:0.3rem 0.5rem;
+    background:#fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.l1,.l2{
+    font-size:0.9rem;
+}
+.l1{
+    margin-right:0.6rem;
+}
+.l2{
+    color:#043150;
+}
+.like span{
+    font-size:0.56rem;
+    flex-grow:2;
+}
+.neirong li{
+    padding:0.3rem 0.5rem;
+    background:#fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:0;
+}
+.neirong li div{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.01rem solid #dddddd;
+}
+.neirong li div .l2{
+    margin-right:0.5rem;
+}
+.neirong li div span{
+    font-size:0.56rem;
+}
+/*footr*/
+footer{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    background: #ffffff;
+}
+footer div{
+    padding:0.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color:#b0b0b0;
+}
+footer a p{
+    font-size: 0.56rem;
+}
+.ff{
+    color: black;
+    font-size:1rem;
+}
+.dd{
+    color:#000;
+}

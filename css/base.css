@@ -1,0 +1,29 @@
+/*
+* @Author: lenovo
+* @Date:   2018-01-04 17:12:06
+* @Last Modified by:   颖宝
+* @Last Modified time: 2018-02-18 12:37:37
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+	font-size: 0.16rem;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color:transparent
+
+}
+p{
+	padding:0;
+	margin:0;
+}
+body{
+	background: #f4f5f5;
+	/* height: 60rem; */
+}
+img{
+	border: none;
+}
